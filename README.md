@@ -10,7 +10,7 @@ Alfonso Santos-López, Álvaro San Millán_.
 
 ### Supplementary Material
 
-**MDR_IS_Model.pdf**  
+**[MDR_IS_Model.pdf](MDR_IS_Model.pdf)**  
 This document presents the full mathematical description of the stochastic population-dynamics model used in the study. It describes each biological process included in the simulations, the corresponding reaction propensities, and the parameterization steps used to match experimental measurements.  
 
 All numerical simulations were implemented in Python using a Google Colab notebook, which contains the complete code for the stochastic model, parameter initialization, and analysis routines. 
