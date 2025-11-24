@@ -15,20 +15,21 @@ Simulations explore how the rate of plasmid conjugation and the structure of tra
 
 ## Notebooks
 
-**MonodGillespieIS_multispecies.ipynb**  
-Describes the structure of the stochastic multispecies model and provides examples of how individual components (birth, death, conjugation, mutation, segregation) are implemented and interact under resource limitation.
+### [MonodGillespieIS_multispecies.ipynb](MonodGillespieIS_multispecies.ipynb)  
+Describes the multispecies stochastic model and shows how birth, death, conjugation, mutation, and segregational loss are implemented under resource limitation.
 
-**MonodGillespieIS_parametrization.py**  
-Uses experimental data of bacterial strains grown in isolation to calibrate strain-specific parameters. This includes fitting Monod growth curves (μₘₐₓ, Kₛ) and estimating antibiotic susceptibility parameters from dose-response experiments.
+### [MonodGillespieIS_parametrization.ipynb](MonodGillespieIS_parametrization.ipynb)  
+Uses experimental monoculture data to calibrate strain-specific parameters, including Monod growth curves and antibiotic susceptibility from dose–response assays.
 
-**MonodGillespieIS_conjugation.ipynb**  
-Simulates plasmid dynamics in a fully connected plasmid transfer network (complete graph), systematically varying the conjugation rate across several orders of magnitude to identify critical thresholds for plasmid spread and associated changes in mutational spectra.
+### [MonodGillespieIS_conjugation.ipynb](MonodGillespieIS_conjugation.ipynb)  
+Simulates plasmid dynamics in a fully connected transfer network while varying the conjugation rate to identify thresholds for plasmid stability and shifts in mutational spectra.
 
-**MonodGillespieIS_networks.ipynb**  
-Explores how modifying the structure of the plasmid transfer network (by randomly removing edges) impacts plasmid prevalence, resource competition, and the relative frequency of SNP versus IS mutations.
+### [MonodGillespieIS_networks.ipynb](MonodGillespieIS_networks.ipynb)  
+Explores how reducing connectivity in the plasmid transfer network alters plasmid prevalence and dynamics of SNP- and IS-driven evolution.
+
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-This project is licensed under the MIT License — see the [license.txt](../license.txt) file for details.
+This project is licensed under the MIT License — see the [license.txt](license.txt) file for details.
