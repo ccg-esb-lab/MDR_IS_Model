@@ -1,4 +1,4 @@
-# Stochastic Model of Plasmid-Encoded IS-Driven Evolution
+# Extended mathematical methods: stochastic population dynamics model
 
 Scripts and notebooks used to produce figures and simulations related to the theoretical model from:
 
