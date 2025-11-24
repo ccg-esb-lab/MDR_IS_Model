@@ -11,6 +11,7 @@ Alfonso Santos-López, Álvaro San Millán_.
 ## Overview
 
 This repository contains the scripts and notebooks for the stochastic model developed in our study, which explores the evolutionary dynamics of plasmid-bearing and plasmid-free bacterial populations carrying insertion sequences (ISs) under antibiotic selection. The model, based on the Gillespie algorithm, simulates random events of birth, death, mutation (SNPs and ISs), plasmid segregation, and conjugation in a multispecies community competing for a limiting resource.  
+
 Simulations explore how the rate of plasmid conjugation and the structure of transmission networks influence plasmid spread, mutation accumulation, and the shift toward IS-driven evolutionary dynamics.
 
 ## Notebooks
